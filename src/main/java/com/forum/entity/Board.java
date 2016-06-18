@@ -21,7 +21,7 @@ public class Board {
 	private int topicNum;
 	
 	@Id
-	@GeneratedValue(generator = "generator")  
+	@GeneratedValue(generator = "generator")
     @GenericGenerator(name = "generator", strategy = "uuid")
 	public String getId() {
 		return id;
